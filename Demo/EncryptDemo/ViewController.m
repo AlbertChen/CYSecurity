@@ -92,7 +92,7 @@
     NSString *account = @"apple";
     NSString *password = @"123456";
     NSError *error = nil;
-    BOOL result = [CYKeychain addPasswork:password withAccount:account error:&error];
+    BOOL result = [CYKeychain storePassword:password withAccount:account error:&error];
     NSLog(@"keychain add result: %@, error: %@", result ? @"success" : @"fail", error);
     
     error = nil;
@@ -101,7 +101,7 @@
     
     password = @"abcdef";
     error = nil;
-    result = [CYKeychain addPasswork:password withAccount:account error:&error];
+    result = [CYKeychain storePassword:password withAccount:account error:&error];
     NSLog(@"keychain update result: %@, error: %@", result ? @"success" : @"fail", error);
     
     error = nil;
