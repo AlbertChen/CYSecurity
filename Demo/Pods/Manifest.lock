@@ -1,0 +1,16 @@
+PODS:
+  - CYSecurity (0.0.1)
+
+DEPENDENCIES:
+  - CYSecurity (from `../`)
+
+EXTERNAL SOURCES:
+  CYSecurity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYSecurity: b1ced49227806715ee8a97c37715970ef9be4f26
+
+PODFILE CHECKSUM: 81a2f41a866028fbf45d2e5611f1995edcbfc8a7
+
+COCOAPODS: 1.9.1

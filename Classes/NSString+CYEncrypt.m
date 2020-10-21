@@ -1,6 +1,6 @@
 //
 //  NSString+Encrypt.m
-//  Demo
+//  CYSecurity
 //
 //  Created by Chen Yiliang on 7/25/16.
 //  Copyright © 2016 Chen Yiliang. All rights reserved.

@@ -1,0 +1,6 @@
+framework module Pods_EncryptDemo {
+  umbrella header "Pods-EncryptDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC8296355A612F4A3C048BF2 /* Pods_EncryptDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834325CAEC8ADB128029A91C /* Pods_EncryptDemo.framework */; };
 		DE2F9C9D2410CD8E000E7F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9C9C2410CD8E000E7F64 /* AppDelegate.m */; };
 		DE2F9CA02410CD8E000E7F64 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9C9F2410CD8E000E7F64 /* SceneDelegate.m */; };
 		DE2F9CA32410CD8E000E7F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9CA22410CD8E000E7F64 /* ViewController.m */; };
@@ -14,13 +15,12 @@
 		DE2F9CA82410CD94000E7F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2F9CA72410CD94000E7F64 /* Assets.xcassets */; };
 		DE2F9CAB2410CD94000E7F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F9CA92410CD94000E7F64 /* LaunchScreen.storyboard */; };
 		DE2F9CAE2410CD94000E7F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9CAD2410CD94000E7F64 /* main.m */; };
-		DE2F9CC024112427000E7F64 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2F9CBF24112427000E7F64 /* Security.framework */; };
-		DE7CA8D524137DB100591C12 /* CYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7CA8CF24137DB100591C12 /* CYKeychain.m */; };
-		DE7CA8D624137DB100591C12 /* NSString+CYEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7CA8D024137DB100591C12 /* NSString+CYEncrypt.m */; };
-		DE7CA8D724137DB100591C12 /* NSData+CYEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7CA8D324137DB100591C12 /* NSData+CYEncrypt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C2F30217E74E25402D03C5A /* Pods-EncryptDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptDemo.debug.xcconfig"; path = "Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		834325CAEC8ADB128029A91C /* Pods_EncryptDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncryptDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A94AD272DDA368DA303C6D /* Pods-EncryptDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptDemo.release.xcconfig"; path = "Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DE2F9C982410CD8E000E7F64 /* EncryptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F9C9B2410CD8E000E7F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE2F9C9C2410CD8E000E7F64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,12 +34,6 @@
 		DE2F9CAC2410CD94000E7F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2F9CAD2410CD94000E7F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE2F9CBF24112427000E7F64 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		DE7CA8CF24137DB100591C12 /* CYKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYKeychain.m; sourceTree = "<group>"; };
-		DE7CA8D024137DB100591C12 /* NSString+CYEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CYEncrypt.m"; sourceTree = "<group>"; };
-		DE7CA8D124137DB100591C12 /* NSData+CYEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CYEncrypt.h"; sourceTree = "<group>"; };
-		DE7CA8D224137DB100591C12 /* CYKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYKeychain.h; sourceTree = "<group>"; };
-		DE7CA8D324137DB100591C12 /* NSData+CYEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CYEncrypt.m"; sourceTree = "<group>"; };
-		DE7CA8D424137DB100591C12 /* NSString+CYEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CYEncrypt.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2F9CC024112427000E7F64 /* Security.framework in Frameworks */,
+				DC8296355A612F4A3C048BF2 /* Pods_EncryptDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,10 +51,10 @@
 		DE2F9C8F2410CD8E000E7F64 = {
 			isa = PBXGroup;
 			children = (
-				DE7CA8CE24137DB100591C12 /* Security */,
 				DE2F9C9A2410CD8E000E7F64 /* EncryptDemo */,
 				DE2F9CBE24112411000E7F64 /* Frameworks */,
 				DE2F9C992410CD8E000E7F64 /* Products */,
+				E74A0B7C623542A7502C47FA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,22 +88,19 @@
 			isa = PBXGroup;
 			children = (
 				DE2F9CBF24112427000E7F64 /* Security.framework */,
+				834325CAEC8ADB128029A91C /* Pods_EncryptDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE7CA8CE24137DB100591C12 /* Security */ = {
+		E74A0B7C623542A7502C47FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DE7CA8D224137DB100591C12 /* CYKeychain.h */,
-				DE7CA8CF24137DB100591C12 /* CYKeychain.m */,
-				DE7CA8D124137DB100591C12 /* NSData+CYEncrypt.h */,
-				DE7CA8D324137DB100591C12 /* NSData+CYEncrypt.m */,
-				DE7CA8D424137DB100591C12 /* NSString+CYEncrypt.h */,
-				DE7CA8D024137DB100591C12 /* NSString+CYEncrypt.m */,
+				4C2F30217E74E25402D03C5A /* Pods-EncryptDemo.debug.xcconfig */,
+				A8A94AD272DDA368DA303C6D /* Pods-EncryptDemo.release.xcconfig */,
 			);
-			name = Security;
-			path = ../Security;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE2F9CB12410CD94000E7F64 /* Build configuration list for PBXNativeTarget "EncryptDemo" */;
 			buildPhases = (
+				8F1A4B6053C564E567598EE6 /* [CP] Check Pods Manifest.lock */,
 				DE2F9C942410CD8E000E7F64 /* Sources */,
 				DE2F9C952410CD8E000E7F64 /* Frameworks */,
 				DE2F9C962410CD8E000E7F64 /* Resources */,
+				6CD0EB1D68F4BEC87626113A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,18 +170,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CD0EB1D68F4BEC87626113A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1A4B6053C564E567598EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EncryptDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE2F9C942410CD8E000E7F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE7CA8D524137DB100591C12 /* CYKeychain.m in Sources */,
 				DE2F9CA32410CD8E000E7F64 /* ViewController.m in Sources */,
 				DE2F9C9D2410CD8E000E7F64 /* AppDelegate.m in Sources */,
 				DE2F9CAE2410CD94000E7F64 /* main.m in Sources */,
 				DE2F9CA02410CD8E000E7F64 /* SceneDelegate.m in Sources */,
-				DE7CA8D624137DB100591C12 /* NSString+CYEncrypt.m in Sources */,
-				DE7CA8D724137DB100591C12 /* NSData+CYEncrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +358,7 @@
 		};
 		DE2F9CB22410CD94000E7F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2F30217E74E25402D03C5A /* Pods-EncryptDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +375,7 @@
 		};
 		DE2F9CB32410CD94000E7F64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A94AD272DDA368DA303C6D /* Pods-EncryptDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

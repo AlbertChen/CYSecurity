@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CC9E701A9DFC5C9766F1608964FEAB /* Pods-EncryptDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB420D15F456FC484CDFCF4CEC1E32F1 /* Pods-EncryptDemo-dummy.m */; };
+		19AF41AEE9C41D7A98E4229BA1E42FFB /* CYKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF742B5327854E990D2B35BFAE17E94 /* CYKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4D79A6A6EE9E6CFCF4106ACB280F91 /* NSString+CYEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C94B12312CA5CDFC1E53529ADC60877 /* NSString+CYEncrypt.m */; };
+		49CE23DB61D0DB9670C9C62F8CD02327 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */; };
+		50B63B2546C9A27ECEEADC051CD4223F /* NSString+CYEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = F71AC7AD8E44BE77271C6D67BF29F850 /* NSString+CYEncrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1CCD516E44E79E3157E8997F59D426 /* CYSecurity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0288124A62B0B711C2355CD2976F12A /* CYSecurity-dummy.m */; };
+		8431398AF010E90F048375D4B4C53AF7 /* CYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F29433F907A4CEDE89C6B3845FD7D89 /* CYKeychain.m */; };
+		97B718C744EA2C99750F7D99D8F7D7DB /* Pods-EncryptDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6DBEC506CE9F613B2A07D2358EF1CB /* Pods-EncryptDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA53F015EB3DD3A05D4634015DEE034B /* NSData+CYEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = F753AF2E88D10662C42C7EDCEA563540 /* NSData+CYEncrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A5E08F872644A8D9606C0B36F15D1A /* CYSecurity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4974E040DE4BD5819D0B0BBF3D81C6BA /* CYSecurity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE85BD40F00BC8F4BC8EE3618B13479D /* CYSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DE433D22A99F29F540905747425E51 /* CYSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62536DD6134A7EA7AABFF4585337652 /* NSData+CYEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 358720ECF275E5CBA1167BC608F4EEC4 /* NSData+CYEncrypt.m */; };
+		DAADE2AB310D24EC2C4AEEEF94E43018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+		E662BF0346790CDFB323E0EB23A25A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89F0D76F5B97970A014C7FF4F2F5A75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB08D05A6A38839A08CB757050D63241;
+			remoteInfo = CYSecurity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DE433D22A99F29F540905747425E51 /* CYSecurity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYSecurity.h; path = Classes/CYSecurity.h; sourceTree = "<group>"; };
+		15EF2671F42A2CAF6D04868E6306BEF1 /* Pods-EncryptDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncryptDemo-frameworks.sh"; sourceTree = "<group>"; };
+		18F9E5B61CF650556D3E0BB90B6B5FCF /* CYSecurity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYSecurity.modulemap; sourceTree = "<group>"; };
+		28EA80005D68875DC20573A9A0A7B862 /* Pods-EncryptDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EncryptDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32556AE3A7B5CB89B16DC57FF12E9393 /* CYSecurity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CYSecurity-Info.plist"; sourceTree = "<group>"; };
+		333270184E7FD6C1891CF2722D53DBA1 /* CYSecurity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYSecurity-prefix.pch"; sourceTree = "<group>"; };
+		358720ECF275E5CBA1167BC608F4EEC4 /* NSData+CYEncrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+CYEncrypt.m"; path = "Classes/NSData+CYEncrypt.m"; sourceTree = "<group>"; };
+		3D5E9F40260B71E56C495B68EE95984E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3F29433F907A4CEDE89C6B3845FD7D89 /* CYKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYKeychain.m; path = Classes/CYKeychain.m; sourceTree = "<group>"; };
+		40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		46E368BA3DB91678CFFE76C8FC86803D /* CYSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYSecurity.release.xcconfig; sourceTree = "<group>"; };
+		4974E040DE4BD5819D0B0BBF3D81C6BA /* CYSecurity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYSecurity-umbrella.h"; sourceTree = "<group>"; };
+		6A04C56D829F8B3D4CC427984A1001EB /* Pods-EncryptDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EncryptDemo-Info.plist"; sourceTree = "<group>"; };
+		6FF0C3014AF119AD1B93BF8B77CEA23C /* Pods-EncryptDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EncryptDemo.modulemap"; sourceTree = "<group>"; };
+		7A5B990AD5F9AA31F72D4067D4918640 /* Pods-EncryptDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncryptDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7B7886B33D3B83D879079E7F54F431CA /* Pods-EncryptDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncryptDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B303C1CC84BCF30DD0B3058C8B3D0FA /* CYSecurity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CYSecurity.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CF742B5327854E990D2B35BFAE17E94 /* CYKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYKeychain.h; path = Classes/CYKeychain.h; sourceTree = "<group>"; };
+		8CFE4D47F277B962045C7F18EA113CBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9C94B12312CA5CDFC1E53529ADC60877 /* NSString+CYEncrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CYEncrypt.m"; path = "Classes/NSString+CYEncrypt.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0288124A62B0B711C2355CD2976F12A /* CYSecurity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYSecurity-dummy.m"; sourceTree = "<group>"; };
+		AB420D15F456FC484CDFCF4CEC1E32F1 /* Pods-EncryptDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EncryptDemo-dummy.m"; sourceTree = "<group>"; };
+		AE6DBEC506CE9F613B2A07D2358EF1CB /* Pods-EncryptDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EncryptDemo-umbrella.h"; sourceTree = "<group>"; };
+		CCB3E3CA1728B43DC929D5538922E411 /* Pods-EncryptDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EncryptDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBF24C8B482B4492B005B708F1655846 /* CYSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYSecurity.debug.xcconfig; sourceTree = "<group>"; };
+		E08D93940FBCDDF0604406BCB5B329BD /* Pods_EncryptDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EncryptDemo.framework; path = "Pods-EncryptDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F10E1E93E0AA13B6C1572CC59D34C2EE /* CYSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYSecurity.framework; path = CYSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71AC7AD8E44BE77271C6D67BF29F850 /* NSString+CYEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CYEncrypt.h"; path = "Classes/NSString+CYEncrypt.h"; sourceTree = "<group>"; };
+		F753AF2E88D10662C42C7EDCEA563540 /* NSData+CYEncrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+CYEncrypt.h"; path = "Classes/NSData+CYEncrypt.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78DBDD6CE5F55959261CE601FCE4904A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAADE2AB310D24EC2C4AEEEF94E43018 /* Foundation.framework in Frameworks */,
+				49CE23DB61D0DB9670C9C62F8CD02327 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57971C0C1511493EED9D410D8E60F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E662BF0346790CDFB323E0EB23A25A3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21323E753D5A45A56469B4B1772B8377 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C43C4E6D731AFEABD86D0B1819619 /* Pods-EncryptDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		28C5302299D4A1C5CA87548CD2581C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10E1E93E0AA13B6C1572CC59D34C2EE /* CYSecurity.framework */,
+				E08D93940FBCDDF0604406BCB5B329BD /* Pods_EncryptDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */,
+				40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A13F8FE9660709096E3986779F97BE0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F9E5B61CF650556D3E0BB90B6B5FCF /* CYSecurity.modulemap */,
+				A0288124A62B0B711C2355CD2976F12A /* CYSecurity-dummy.m */,
+				32556AE3A7B5CB89B16DC57FF12E9393 /* CYSecurity-Info.plist */,
+				333270184E7FD6C1891CF2722D53DBA1 /* CYSecurity-prefix.pch */,
+				4974E040DE4BD5819D0B0BBF3D81C6BA /* CYSecurity-umbrella.h */,
+				DBF24C8B482B4492B005B708F1655846 /* CYSecurity.debug.xcconfig */,
+				46E368BA3DB91678CFFE76C8FC86803D /* CYSecurity.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/CYSecurity";
+			sourceTree = "<group>";
+		};
+		BE2C43C4E6D731AFEABD86D0B1819619 /* Pods-EncryptDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6FF0C3014AF119AD1B93BF8B77CEA23C /* Pods-EncryptDemo.modulemap */,
+				28EA80005D68875DC20573A9A0A7B862 /* Pods-EncryptDemo-acknowledgements.markdown */,
+				CCB3E3CA1728B43DC929D5538922E411 /* Pods-EncryptDemo-acknowledgements.plist */,
+				AB420D15F456FC484CDFCF4CEC1E32F1 /* Pods-EncryptDemo-dummy.m */,
+				15EF2671F42A2CAF6D04868E6306BEF1 /* Pods-EncryptDemo-frameworks.sh */,
+				6A04C56D829F8B3D4CC427984A1001EB /* Pods-EncryptDemo-Info.plist */,
+				AE6DBEC506CE9F613B2A07D2358EF1CB /* Pods-EncryptDemo-umbrella.h */,
+				7B7886B33D3B83D879079E7F54F431CA /* Pods-EncryptDemo.debug.xcconfig */,
+				7A5B990AD5F9AA31F72D4067D4918640 /* Pods-EncryptDemo.release.xcconfig */,
+			);
+			name = "Pods-EncryptDemo";
+			path = "Target Support Files/Pods-EncryptDemo";
+			sourceTree = "<group>";
+		};
+		C8788B8285BC937614B3B13C7EAAB91A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B303C1CC84BCF30DD0B3058C8B3D0FA /* CYSecurity.podspec */,
+				8CFE4D47F277B962045C7F18EA113CBC /* LICENSE */,
+				3D5E9F40260B71E56C495B68EE95984E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FD26DD1EDCD0456A5007329E89F5B115 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				28C5302299D4A1C5CA87548CD2581C18 /* Products */,
+				21323E753D5A45A56469B4B1772B8377 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB23FA5ADE3FA7C6501EEE26AD2A1A3 /* CYSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				8CF742B5327854E990D2B35BFAE17E94 /* CYKeychain.h */,
+				3F29433F907A4CEDE89C6B3845FD7D89 /* CYKeychain.m */,
+				01DE433D22A99F29F540905747425E51 /* CYSecurity.h */,
+				F753AF2E88D10662C42C7EDCEA563540 /* NSData+CYEncrypt.h */,
+				358720ECF275E5CBA1167BC608F4EEC4 /* NSData+CYEncrypt.m */,
+				F71AC7AD8E44BE77271C6D67BF29F850 /* NSString+CYEncrypt.h */,
+				9C94B12312CA5CDFC1E53529ADC60877 /* NSString+CYEncrypt.m */,
+				C8788B8285BC937614B3B13C7EAAB91A /* Pod */,
+				A13F8FE9660709096E3986779F97BE0F /* Support Files */,
+			);
+			name = CYSecurity;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FD26DD1EDCD0456A5007329E89F5B115 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB23FA5ADE3FA7C6501EEE26AD2A1A3 /* CYSecurity */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		123ECBD12860AB28A0BC6462B28476AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B718C744EA2C99750F7D99D8F7D7DB /* Pods-EncryptDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893E8192C2ABD3130FF670A804F9F2D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AF41AEE9C41D7A98E4229BA1E42FFB /* CYKeychain.h in Headers */,
+				C2A5E08F872644A8D9606C0B36F15D1A /* CYSecurity-umbrella.h in Headers */,
+				CE85BD40F00BC8F4BC8EE3618B13479D /* CYSecurity.h in Headers */,
+				AA53F015EB3DD3A05D4634015DEE034B /* NSData+CYEncrypt.h in Headers */,
+				50B63B2546C9A27ECEEADC051CD4223F /* NSString+CYEncrypt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AFB40D7FCA20BC3984F08C7A87200E5 /* Pods-EncryptDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C3698071D02BDFA60E8C89C311B17C /* Build configuration list for PBXNativeTarget "Pods-EncryptDemo" */;
+			buildPhases = (
+				123ECBD12860AB28A0BC6462B28476AA /* Headers */,
+				65CDE119B3AFF6C829099FC017318748 /* Sources */,
+				D57971C0C1511493EED9D410D8E60F63 /* Frameworks */,
+				29C06E794CD90896637BC678ED9507A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB6B8FC61BAAC1BFCB9907F5D1A55C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-EncryptDemo";
+			productName = "Pods-EncryptDemo";
+			productReference = E08D93940FBCDDF0604406BCB5B329BD /* Pods_EncryptDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB08D05A6A38839A08CB757050D63241 /* CYSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BB2A4B37DA906497D7765513DB9A07 /* Build configuration list for PBXNativeTarget "CYSecurity" */;
+			buildPhases = (
+				893E8192C2ABD3130FF670A804F9F2D4 /* Headers */,
+				3A33A3D60358B796C69AC98A69682FE8 /* Sources */,
+				78DBDD6CE5F55959261CE601FCE4904A /* Frameworks */,
+				39C121884B1D202CCFF334E0BC8AD90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYSecurity;
+			productName = CYSecurity;
+			productReference = F10E1E93E0AA13B6C1572CC59D34C2EE /* CYSecurity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 28C5302299D4A1C5CA87548CD2581C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB08D05A6A38839A08CB757050D63241 /* CYSecurity */,
+				3AFB40D7FCA20BC3984F08C7A87200E5 /* Pods-EncryptDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29C06E794CD90896637BC678ED9507A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C121884B1D202CCFF334E0BC8AD90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A33A3D60358B796C69AC98A69682FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431398AF010E90F048375D4B4C53AF7 /* CYKeychain.m in Sources */,
+				7E1CCD516E44E79E3157E8997F59D426 /* CYSecurity-dummy.m in Sources */,
+				D62536DD6134A7EA7AABFF4585337652 /* NSData+CYEncrypt.m in Sources */,
+				1E4D79A6A6EE9E6CFCF4106ACB280F91 /* NSString+CYEncrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CDE119B3AFF6C829099FC017318748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CC9E701A9DFC5C9766F1608964FEAB /* Pods-EncryptDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADB6B8FC61BAAC1BFCB9907F5D1A55C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYSecurity;
+			target = EB08D05A6A38839A08CB757050D63241 /* CYSecurity */;
+			targetProxy = 89F0D76F5B97970A014C7FF4F2F5A75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2290DA66FE580D6A36DCA1425161F371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E368BA3DB91678CFFE76C8FC86803D /* CYSecurity.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYSecurity/CYSecurity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYSecurity/CYSecurity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CYSecurity/CYSecurity.modulemap";
+				PRODUCT_MODULE_NAME = CYSecurity;
+				PRODUCT_NAME = CYSecurity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F8C47967A0539AA628C447B792A84DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7886B33D3B83D879079E7F54F431CA /* Pods-EncryptDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2ED73757DB8FD11736005D36B26B794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5B990AD5F9AA31F72D4067D4918640 /* Pods-EncryptDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncryptDemo/Pods-EncryptDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C386C52628E03064856F73C3CF27E755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF24C8B482B4492B005B708F1655846 /* CYSecurity.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYSecurity/CYSecurity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYSecurity/CYSecurity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CYSecurity/CYSecurity.modulemap";
+				PRODUCT_MODULE_NAME = CYSecurity;
+				PRODUCT_NAME = CYSecurity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C3698071D02BDFA60E8C89C311B17C /* Build configuration list for PBXNativeTarget "Pods-EncryptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8C47967A0539AA628C447B792A84DE /* Debug */,
+				A2ED73757DB8FD11736005D36B26B794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BB2A4B37DA906497D7765513DB9A07 /* Build configuration list for PBXNativeTarget "CYSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C386C52628E03064856F73C3CF27E755 /* Debug */,
+				2290DA66FE580D6A36DCA1425161F371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

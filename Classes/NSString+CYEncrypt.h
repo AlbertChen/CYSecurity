@@ -1,6 +1,6 @@
 //
 //  NSString+Encrypt.h
-//  Demo
+//  CYSecurity
 //
 //  Created by Chen Yiliang on 7/25/16.
 //  Copyright © 2016 Chen Yiliang. All rights reserved.
@@ -27,22 +27,44 @@
 /**
  * 3DES加密字符串
  * @param key   加密秘钥
- * @param iv    加密偏移量
  *
  * @return 返回加密后经Base64编码过的字符串
  */
 - (NSString *)DESEncryptWithKey:(NSString *)key;
+
+/**
+* 3DES加密字符串
+* @param key   加密秘钥
+* @param iv    加密偏移量
+*
+* @return 返回加密后经Base64编码过的字符串
+*/
 - (NSString *)DESEncryptWithKey:(NSString *)key iv:(NSString *)iv;
 
 /**
  * 3DES解密Base64编码过的加密字符串
  * @param key   加密秘钥
- * @param iv    加密偏移量
  *
  * @return 返回原始字符串
  */
 - (NSString *)DESDecryptWithKey:(NSString *)key;
+
+/**
+* 3DES解密Base64编码过的加密字符串
+* @param key   加密秘钥
+* @param iv    加密偏移量
+*
+* @return 返回原始字符串
+*/
 - (NSString *)DESDecryptWithKey:(NSString *)key iv:(NSString *)iv;
+
+/**
+* AES(256)加密字符串
+* @param key   加密秘钥
+*
+* @return 返回加密后经Base64编码过的字符串
+*/
+- (NSString *)AESEncryptWithKey:(NSString *)key;
 
 /**
 * AES(256)加密字符串
@@ -51,27 +73,40 @@
 *
 * @return 返回加密后经Base64编码过的字符串
 */
-- (NSString *)AESEncryptWithKey:(NSString *)key;
 - (NSString *)AESEncryptWithKey:(NSString *)key iv:(NSString *)iv;
 
 /**
  * AES(256)解密Base64编码过的加密字符串
  * @param key   加密秘钥
- * @param iv    加密偏移量
  *
  * @return 返回原始字符串
  */
 - (NSString *)AESDecryptWithKey:(NSString *)key;
+
+/**
+* AES(256)解密Base64编码过的加密字符串
+* @param key   加密秘钥
+* @param iv    加密偏移量
+*
+* @return 返回原始字符串
+*/
 - (NSString *)AESDecryptWithKey:(NSString *)key iv:(NSString *)iv;
 
 /**
  * RSA加密字符串
  * @param publicKey 加密公钥
- * @param isSign 是否是数字签名
  *
  * @return 返回加密后经Base64编码过的字符串
  */
 - (NSString *)RSAEncryptWithKey:(NSString *)publicKey;
+
+/**
+* RSA加密字符串
+* @param publicKey 加密公钥
+* @param isSign 是否是数字签名
+*
+* @return 返回加密后经Base64编码过的字符串
+*/
 - (NSString *)RSAEncryptWithKey:(NSString *)publicKey isSign:(BOOL)isSign;
 
 /**

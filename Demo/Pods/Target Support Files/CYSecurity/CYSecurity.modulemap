@@ -1,0 +1,6 @@
+framework module CYSecurity {
+  umbrella header "CYSecurity-umbrella.h"
+
+  export *
+  module * { export * }
+}

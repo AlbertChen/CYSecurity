@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CYKeychain.h"
-#import "NSString+CYEncrypt.h"
+#import <CYSecurity/CYSecurity.h>
 
 @interface ViewController ()
 
