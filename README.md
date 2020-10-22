@@ -1,8 +1,8 @@
 # CYSecurity
+
 ![](https://img.shields.io/cocoapods/v/CYSecurity.svg?style=flat)
 ![](https://img.shields.io/cocoapods/p/CYSecurity.svg?style=flat)
 ![](https://img.shields.io/badge/language-ObjectiveC-orange.svg)
-![](https://img.shields.io/cocoapods/dt/CYSecurity.svg)
 
 Data encrypt/decrypt and keychain storage
 
